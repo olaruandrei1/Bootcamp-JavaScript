@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.grid-container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196f3;
+    padding: 10px;
+}
+.row {
+    display: inline-flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    box-sizing: border-box;
+    padding: 3rem;
+    font-size: 10px;
+    text-align: center;
+    width: 450px;
+    padding-bottom: 8rem;
+}
+.container {
+    padding-top: 3%;
+    padding-left: 17%;
+    padding-right: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.photo {
+    width: 200px;
+    height: 100px;
+    display: inline;
+    margin-left: -11%;
+}
+.image-content {
+    width: auto;
+    height: 19vh;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #2d2b6d;
+}
+.meta-header {
+    background-color: #f3f0ff;
+    color: #6a41fb;
+    border-radius: 0.25rem;
+    padding: 0.7rem 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: left;
+    display: table;
+}
+.meta-header-second {
+    background-color: #f3f0ff;
+    color: #6a41fb;
+    border-radius: 0.25rem;
+    padding: 0.7rem 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: left;
+    display: table;
+    margin-left: 2%;
+}
+.header-entry {
+    margin: 2rem 0 1rem;
+    display: block;
+    font-size: 15.2px;
+}
+.meta-Title {
+    color: #2d2b6d;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: left;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+    font-family: 'Rubik', sans-serif;
+}
+.content-of-card {
+    font-size: 15.2px;
+    margin: 0px 0px 15.2px;
+    text-align: left;
+    color: #25255980;
+    line-height: 1.5rem;
+}
+.post-content {
+    text-align: left;
+    display: flex;
+}
+.details-autor {
+    padding-left: 1.7rem;
+    font-size: 16px;
+}
+.avatar-autor {
+    width: 50px;
+    border-radius: auto;
+}
+.hidden {
+    display: none;
+}
+.container-header {
+    display: flex;
+}
+.image-avatar-autor {
+    display: absolute;
+    width: 80px;
+    height: auto;
+    border-radius: 40px;
+}
+.details-autor {
+    margin-left: 5%;
+    margin-top: 2%;
+}
